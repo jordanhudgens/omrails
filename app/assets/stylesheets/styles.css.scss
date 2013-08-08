@@ -1,6 +1,6 @@
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
-$btnPrimaryBackground: purple;
+$btnPrimaryBackground: green;
 
 @import 'bootstrap';
 body{
@@ -9,10 +9,10 @@ body{
 
 @import 'bootstrap-responsive';
 
-.navbar-inner{
+/*.navbar-inner{
     @include box-shadow(none !important);
     border: 0;
-}
+}*/
 
 .footer{
     margin-top: 50px;
