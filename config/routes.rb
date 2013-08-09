@@ -1,4 +1,8 @@
 Omrails::Application.routes.draw do
+  devise_for :views
+
+  devise_for :users
+
   get "pages/contact"
 
   get 'about' => "pages#about"
